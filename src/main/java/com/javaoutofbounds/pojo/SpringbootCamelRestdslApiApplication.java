@@ -19,6 +19,8 @@ public class SpringbootCamelRestdslApiApplication {
 
 	
 	// EXEMPLO 2
+	// http://localhost:8080/student/hello/Peter
+    // http://localhost:8080/student/records/Sam
 	@Component
 	class StudentRoute extends RouteBuilder {
 
